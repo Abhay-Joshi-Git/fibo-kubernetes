@@ -29,7 +29,7 @@ let onPgConnection = (conn) => {
 }
 
 let connectionAttempt = 0
-const maxConnectionAttempts = 4
+const maxConnectionAttempts = 14
 let pgClient
 let handleConnectionFailure = (e, client) => {
 	if (client) {
